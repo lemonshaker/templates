@@ -15,3 +15,4 @@ standard: [eu, fr]
 ---
 
 Pinouts are shown on the ESP32 Board. It's VCC, GNC, RX, TX, ESP32C3 Rev.3
+In some cases, the internal USB interface(USB Serial/JTAG Controller) has to be used for the programming: USB_D-(GPIO18), USB_D+(GPIO19) the pins are located on the otherside of Vcc and GND.
